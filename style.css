@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: hsl(235, 21%, 11%);
+}
+
+.bgimgdiv {
+  background-image: url(images/bg-desktop-dark.jpg);
+  height: 200px;
+  color: white;
+}
+.todo-txt {
+  margin-right: 250px;
+  font-size: 30px;
+}
+.txt-container {
+  padding-top: 80px;
+  padding-left: 500px;
+  /* border: 2px solid yellow; */
+}
+.relative-div {
+  width: 405px;
+  color: white;
+  background-color: black;
+}
+.inp-field {
+  border: none;
+  height: 40px;
+  width: 350px;
+  background-color: black;
+}
+.main-rel-div {
+  position: relative;
+  bottom: 60px;
+  padding-left: 500px;
+}
+
+.sec-rel-div > p{
+  
+  margin-top: 15px;
+}
+#moon{
+  display: none;
+}
+button{
+  background-color: black;
+  color: white;
+  border: none;
+}
+button:hover{
+  border: 2px solid white;
+}
