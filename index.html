@@ -11,9 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="bootstrap5/css/bootstrap.min.css" />
   <link rel="stylesheet" href="style.css">
-  <title>Frontend Mentor | Todo app</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <title> Todo app</title>
   <style>
     .attribution {
       font-size: 11px;
@@ -48,34 +46,24 @@
     </div>
     <div class="main-rel-div">
       <div id="inpfielddiv" class="relative-div">
-        <input onclick="errmsgdel()" type="text" id="input" class=" inpfieldcolor inp-field" placeholder="Create a new To do">
+        <input onclick="errmsgdel()" type="text" id="input" class=" inpfieldcolor inp-field"
+          placeholder="Create a new To do">
         <button onclick="addBtn()">Add</button>
       </div>
       <p id="error" style="color: rgb(151, 3, 3);"></p>
       <div id="bottomTab" class="crd crd-body relative-div  sec-rel-div mt-4">
-        <ul id="unlist">
-
+        <ul id="unlist" class="text-white">
+          <!-- <li>hello</li> -->
         </ul>
-     <div class="d-flex" style="font-size: 12px;">
-      <p class="ms-2  me-5">5 items left</p>
-      <p class="me-3 ">All</p>
-      <p class="me-3">Active</p>
-      <p class="me-5">Completed</p>
-      <p>Clear Completed</p>
-
-     </div>
+        <!-- <div class="d-flex" style="font-size: 12px;">
+          <p class="ms-2  me-5">5 items left</p>
+          <p class="me-3 ">All</p>
+          <p class="me-3">Active</p>
+          <p class="me-5">Completed</p>
+          <p>Clear Completed</p>
+        </div> -->
       </div>
-
-
-
-
     </div>
-
-
-
-
-
-
   </section>
 
   <div class="attribution">
@@ -83,7 +71,7 @@
     Coded by <a href="#">Your Name Here</a>.
   </div>
 
-  
+
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="index.js"></script>
 </body>
